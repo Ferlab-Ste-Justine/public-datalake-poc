@@ -7,7 +7,7 @@ Technical Story: https://d3b.atlassian.net/browse/SJRA-1091
 
 ## Context and Problem Statement
 
-The Public Datalake project aims to centralize and automate the ingestion, management, and versioning of public third-party datasets (e.g., ClinVar, Ensembl, gnomAD) for Radiant. To guide early planning and discussions, we need to document a hypothetical architecture.
+The Public Datalake project aims to centralize and automate the ingestion, management, and versioning of public third-party datasets (e.g., ClinVar, Ensembl, gnomAD) for Radiant and other projects such as KidsFirst and Include. To guide early planning and discussions, we need to document a hypothetical architecture.
 
 The following diagram provides a high-level overview of the envisioned architecture:
 ![architecture diagram](images/architecture_graph.png)
