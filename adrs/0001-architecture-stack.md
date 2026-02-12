@@ -1,4 +1,4 @@
-# Chosen Architecture Stack: Airflow, EMR, Glue, Iceberg
+# Chosen Public Datalake Architecture: Airflow, EMR, Glue, Iceberg
 
 * Status: proposed
 * Deciders: @kritchie (Karl Richie), @laurabegin (Laura Bégin), @celinepelletier (Céline Pelletier), @jecos (Jeremy Costanza), @LysianeBouchard (Lysiane Bouchard)
@@ -7,10 +7,13 @@ Technical Story: https://d3b.atlassian.net/browse/SJRA-1091
 
 ## Context and Problem Statement
 
-The Public Datalake project aims to centralize and automate the ingestion, management, and versioning of public third-party datasets (e.g., ClinVar, Ensembl, gnomAD) for Radiant and other Ferlab projects. To guide early planning and discussions, we need to document a hypothetical architecture.
+The Public Datalake project aims to centralize and automate the ingestion, management, and versioning of public third-party datasets (e.g., ClinVar, Ensembl, gnomAD) for Radiant. To guide early planning and discussions, we need to document a hypothetical architecture.
+
+The following diagram provides a high-level overview of the envisioned architecture:
+![architecture diagram](images/architecture_graph.png)
 
 Main question:
-Which tools should we use to address our main needs—such as orchestration, data processing, and versioning?
+Which tools should we use to address our main needs—such as orchestration, data processing and versioning?
 
 ## Decision Drivers 
 
